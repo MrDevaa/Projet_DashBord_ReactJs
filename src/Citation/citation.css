@@ -1,0 +1,48 @@
+/* Styles pour le composant */
+.container {
+    width: 300px;
+    background-color: #FFEB3B; /* Jaune clair pour l'arrière-plan */
+    border: 2px solid #FFC107; /* Bordure légèrement plus foncée */
+    border-radius: 5px; /* Pour les bords arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Légère ombre */
+    font-family: 'Arial', sans-serif; /* Police simple */
+    padding: 10px;
+    margin: 20px auto; /* Centrer l'élément */
+  }
+  
+  .header {
+    background-color: #FFC107; /* Barre de titre couleur jaune/orange */
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid #FFA000; /* Bordure pour séparer la barre du contenu */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .header .close-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .content {
+    padding: 10px;
+    background-color: #FFEB3B; /* Couleur du post-it */
+    border-radius: 0 0 5px 5px;
+    font-size: 16px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    list-style-type: disc;
+  }
+  
