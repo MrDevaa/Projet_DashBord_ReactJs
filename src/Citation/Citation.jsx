@@ -22,7 +22,7 @@ function App() {
       <p>Actuellement, la citation est la suivante :</p>
       <ul>
         <li>La Citation actuelle est : {citation.advice}</li>
-        <li>ID de la citation : {citation.id}</li>
+        {/* <li>ID de la citation : {citation.id}</li> */}
       </ul>
     </div>
   );
