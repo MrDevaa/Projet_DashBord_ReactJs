@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { BrowserRouter, Link, Route, Routes, useParams } from 'react-router-dom';
 import ListeMarkdowns from './listemarkdowns/ListeMarkdowns'
-import FormMarkdown from './formmarkdown/FormMarkdown';
+import FormMarkdown from './FormMarkdown/FormMarkDown.jsx';
 import PreviewMarkdown from './previwmarkdown/PreviewMarkdown';
 
 function MarkdownContainer({ markdowns, onUpdateMarkdown }) {
