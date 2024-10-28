@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import "../Citation/citation.css";
 
-function App() {
+function Citation() {
   const [citation, setCitation] = useState({
     id: null,
     advice: ""
@@ -26,11 +26,11 @@ function App() {
       <div className="content">
         <p></p>
         <ul>
-          <li>La Citation actuelle est :{citation.advice}</li>
+          <li>La Citation actuelle  :{citation.advice}</li>
         </ul>
       </div>
     </div>
   );
 }
 
-export default App;
+export default Citation;
