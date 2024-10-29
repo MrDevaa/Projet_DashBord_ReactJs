@@ -7,7 +7,7 @@ function PreviewMarkdown({ markdowns, onUpdateMarkdown }) {
   
   // const navigate = useNavigate();
   const { markdownid } = useParams();
-  console.log(markdownid);
+  // console.log(markdownid);
   
   const markdown = markdowns.find(({ id }) => (id === markdownid));
 
@@ -21,7 +21,7 @@ function PreviewMarkdown({ markdowns, onUpdateMarkdown }) {
     }
   }, [markdown]);
 
-  console.log(markdown);
+  // console.log(markdown);
 
   var converter = new showdown.Converter();
   // convertie "markdown" en html grace a "converter"

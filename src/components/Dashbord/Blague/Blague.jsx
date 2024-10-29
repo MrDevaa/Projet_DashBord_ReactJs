@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import "../Blague/blague.css";
 
 function Blague() {
   const [blague, setBlague] = useState({});
@@ -16,7 +17,7 @@ function Blague() {
 
   return (
     <div>
-      <p>Voici une blague :</p>
+      <p>Voici  la blague du jour :</p>
       <ul>
         <li>setup : {blague.setup}</li>
         <li>punchline : {blague.punchline}</li>
