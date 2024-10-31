@@ -1,0 +1,102 @@
+
+#root > div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.dashboard-container .top-dashbord {
+    display: flex;
+    gap: 10px;
+}
+.dashboard-container .right-dashbord{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dashboard-container .right-dashbord .child-right-dashbord {
+    display: flex;
+    gap: 10px;
+    height: 50%;
+}
+
+.child-right-dashbord > div {
+    width: 50%;
+}
+
+img {
+    width: 100px;
+}
+
+.top-dashbord {
+    height: 500px;
+    margin-bottom: 15px;
+}
+
+.dashboard-container > .useless {
+    flex: 1;
+}
+
+.top-dashbord > div {
+    width: 50%;
+  
+}
+.date-color {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+}
+
+.useless {
+    border: 1px solid black;
+
+}
+
+.useless > div {
+    padding: 10px;
+}
+
+.useless h4 {
+    background: var(--secondary-color);
+    color: white;
+    padding:8px;
+    text-align: center;
+}
+
+.dashboard-container > .useless ul{
+    padding: 13px;
+    list-style: none;
+    display: flex;
+    flex-direction: column; 
+    gap: 7px;
+}
+
+.chute {
+    position: relative;
+}
+.chute img {
+    width: 2rem;
+}
+
+.chute::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    top: 0;
+
+}
+
+.chute:hover::after {
+    background-color: transparent;
+    transition: 1s all;
+}

@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import "../Citation/citation.css";
 
 function Citation() {
   const [citation, setCitation] = useState({
@@ -19,15 +18,10 @@ function Citation() {
   }, []); // [] signifie que l'effet s'exécute uniquement une fois après le premier rendu
 
   return (
-    <div className="container">
-      <div className="header">
-      Actuellement, la citation est la suivante :
-      </div>
-      <div className="content">
-        <p></p>
-        <ul>
-          <li>La Citation actuelle  :{citation.advice}</li>
-        </ul>
+    <div className='useless' >
+      <h4>Actuellement, la citation est la suivante</h4>
+      <div>
+        <p>La Citation actuelle  :{citation.advice}</p>
       </div>
     </div>
   );

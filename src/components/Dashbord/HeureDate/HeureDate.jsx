@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import "../Heure&Date/heure&date.css";
 
 const HeureDate = () => {
   // État pour stocker la date et l'heure
@@ -33,9 +32,10 @@ const HeureDate = () => {
   }, []); // [] signifie que cet effet est appliqué une seule fois au montage
 
   return (
-    <div>
-      <p>Date actuelle : {dateTime.date}</p>
-      <p>Heure actuelle : {dateTime.time}</p>
+    <div className='useless'>
+    <div className='date-color'>
+      <p>Nous somme {dateTime.date} il est {dateTime.time}</p>
+    </div>
     </div>
   );
 };

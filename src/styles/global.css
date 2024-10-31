@@ -1,0 +1,36 @@
+:root {
+    --padding: 10px;
+    --primary-color: #043498;
+    --secondary-color: #6799C9;
+}
+
+nav {
+    /* height: 8vh; */
+    background: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 100%;
+}
+
+nav > a{
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+

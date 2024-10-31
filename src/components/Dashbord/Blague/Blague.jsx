@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
-import "../Blague/blague.css";
-
+import rigole from "../../../images/rigole.png";
 function Blague() {
   const [blague, setBlague] = useState({});
 
@@ -16,12 +15,16 @@ function Blague() {
   }
 
   return (
-    <div>
-      <p>Voici  la blague du jour :</p>
-      <ul>
-        <li>setup : {blague.setup}</li>
-        <li>punchline : {blague.punchline}</li>
-      </ul>
+    <div className='useless'>
+      <h4>Voici une blague</h4>
+      <div>
+        <p>{blague.setup}</p>
+        <p>Chute :</p>
+        <div className='chute'>
+          <img src={rigole} alt="rigole" />
+          <p>{blague.punchline}</p>
+        </div>
+      </div>
     </div>
   );
 }

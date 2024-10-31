@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import "./recette.css";
-
 
 const RecetteDuJour = () => {
   const [recette, setRecette] = useState(null);
@@ -32,21 +30,22 @@ const RecetteDuJour = () => {
   const handleClose = () => setOpen(false);
 
   return (
-    <div>
+    <div className='useless'>
       {recette ? (
-        <div>
-          <h1>Recette du jour</h1>
+        <>
+          <h4>Recette du jour</h4>
           <h2>{recette.strMeal}</h2>
           <button onClick={handleClickOpen}>Voir les détails</button>
-        </div>
+        </>
+
       ) : (
         <p>Chargement de la recette...</p>
       )}
 
       {open && (
-        <div className="modal">
-          <div className="modal-content">
-            <span className="close" onClick={handleClose}>&times;</span>
+        <div >
+          <div >
+            <span onClick={handleClose}>&times;</span>
             <p><strong>Ingrédients :</strong></p>
             <ul>
               {Object.keys(recette)
