@@ -53,14 +53,15 @@ img {
     background-color: var(--secondary-color);
     color: white;
     text-align: center;
+    padding: 10px;
+
 }
 
 .useless {
     border: 1px solid black;
-
 }
 
-.useless > div {
+.useless > div:nth-of-type(2) {
     padding: 10px;
 }
 
@@ -99,4 +100,29 @@ img {
 .chute:hover::after {
     background-color: transparent;
     transition: 1s all;
+}
+
+.useless  h2 {
+    text-align: center;
+}
+
+.emoji{
+    display: flex;
+    background: var(--secondary-color);
+    justify-content: center;
+    align-items: center;
+}
+.emoji img {
+    width: 25px;
+    height: 25px;
+}
+
+.mocktail-img h2{
+    display: flex;
+    justify-content: center;
+}
+
+.mocktail-img img{
+    width: 150px;
+    margin: auto;
 }

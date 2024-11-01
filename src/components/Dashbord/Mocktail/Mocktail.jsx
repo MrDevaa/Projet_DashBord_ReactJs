@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import coktail from '../../../images/mocktail.png';
 
 const Mocktail = () => {
   const [mocktail, setMocktail] = useState(null);
@@ -34,13 +35,17 @@ const getDayOfWeek = () => {
 
   return (
     <div className="useless">
+      <div className="emoji">
+        <img src={coktail} alt="mocktail" />
       <h4>Mocktail du {getDayOfWeek()}</h4>
-        
+      <img src={coktail} alt="mocktail" />
+      </div>
+
         {loading ? (
           <p>Chargement de la  en cours...</p>
 
         ) : mocktail ? (
-          <div >
+          <div className="mocktail-img" >
             <h2>{mocktail.strDrink}</h2>
             <img src={mocktail.strDrinkThumb} alt={mocktail.strDrink} />
           </div>

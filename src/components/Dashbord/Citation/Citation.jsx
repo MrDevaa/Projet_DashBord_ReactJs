@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import idea from '../../../images/idea.png';
 
 function Citation() {
   const [citation, setCitation] = useState({
@@ -19,7 +20,11 @@ function Citation() {
 
   return (
     <div className='useless' >
-      <h4>Actuellement, la citation est la suivante</h4>
+      <div className='emoji'>
+        <img src={idea} alt="idea" />
+        <h4>Actuellement, la citation est la suivante</h4>
+        <img src={idea} alt="idea" />
+      </div>
       <div>
         <p>La Citation actuelle  :{citation.advice}</p>
       </div>

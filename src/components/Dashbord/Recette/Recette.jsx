@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import eat from '../../../images/eat.png';
 
 const RecetteDuJour = () => {
   const [recette, setRecette] = useState(null);
@@ -33,7 +34,11 @@ const RecetteDuJour = () => {
     <div className='useless'>
       {recette ? (
         <>
+        <div className='emoji'>
+          <img src={eat} alt="eat" /> 
           <h4>Recette du jour</h4>
+          <img src={eat} alt="eat" />
+        </div>
           <h2>{recette.strMeal}</h2>
           <button onClick={handleClickOpen}>Voir les détails</button>
         </>

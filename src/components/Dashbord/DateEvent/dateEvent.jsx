@@ -1,4 +1,5 @@
  import React, { useEffect, useState } from 'react';
+ import event from '../../../images/event.png'
  function HistoricalDate() {
     const [dateInfo, setDateInfo] = useState([]);
     const [randomEvents, setRandomEvents] = useState([]);
@@ -20,7 +21,11 @@
 
     return (
       <div className='useless'>
-        <h4>Les Événements Historiques du jour</h4>
+        <div className='emoji'>
+        <img src={event} alt="event" />
+         <h4>Les Événements Historiques du jour</h4>
+         <img src={event} alt="event" />
+        </div>
         <ul>
           {randomEvents.map((event, index) => (
             <li key={index}>
