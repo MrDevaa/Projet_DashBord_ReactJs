@@ -11,7 +11,7 @@ Currently, two official plugins are available:
 
 | **Fonctionnalité** | **Disponibilité** | **Commentaire**  |
 |--------------------|-------------------|------------------|
-| Surfez sur le web  |         ✅       |------------------|
+| Surfez sur le web  |         ✅        |------------------|
 |                   -|                   |------------------|
 |                   -|                   |------------------|
 |                   -|                   |------------------|
