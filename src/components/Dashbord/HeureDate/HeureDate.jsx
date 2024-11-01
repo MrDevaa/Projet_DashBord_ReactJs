@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const HeureDate = () => {
-  // État pour stocker la date et l'heure
+  
   const [dateTime, setDateTime] = useState({
     date: new Date().toLocaleDateString('fr-FR', {
       weekday: 'long',
@@ -12,7 +12,7 @@ const HeureDate = () => {
     time: new Date().toLocaleTimeString('fr-FR')
   });
 
-  // Utiliser useEffect pour mettre à jour l'heure toutes les secondes
+  
   useEffect(() => {
     const intervalId = setInterval(() => {
       const now = new Date();
@@ -25,11 +25,11 @@ const HeureDate = () => {
         }),
         time: now.toLocaleTimeString('fr-FR')
       });
-    }, 1000); // Mettre à jour chaque seconde
+    }, 1000);
 
-    // Nettoyage de l'intervalle lors du démontage du composant
+    
     return () => clearInterval(intervalId);
-  }, []); // [] signifie que cet effet est appliqué une seule fois au montage
+  }, []); 
 
   return (
     <div className='useless'>

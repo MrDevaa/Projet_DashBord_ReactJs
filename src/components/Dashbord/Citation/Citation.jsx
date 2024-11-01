@@ -10,23 +10,23 @@ function Citation() {
   function fetchCitation() {
     fetch('https://api.adviceslip.com/advice')
       .then((res) => res.json())
-      .then((data) => setCitation(data.slip)) // stocke l'objet complet "slip" dans l'état
+      .then((data) => setCitation(data.slip))
       .catch((error) => console.log(error));
   }
 
   useEffect(() => {
-    fetchCitation(); // Appelle l'API une seule fois lors du chargement de la page
-  }, []); // [] signifie que l'effet s'exécute uniquement une fois après le premier rendu
+    fetchCitation();
+  }, []); 
 
   return (
     <div className='useless' >
       <div className='emoji'>
         <img src={idea} alt="idea" />
-        <h4>Actuellement, la citation est la suivante</h4>
+        <h4>Actuellement, la citation est </h4>
         <img src={idea} alt="idea" />
       </div>
       <div>
-        <p>La Citation actuelle  :{citation.advice}</p>
+        <p>{citation.advice}</p>
       </div>
     </div>
   );
