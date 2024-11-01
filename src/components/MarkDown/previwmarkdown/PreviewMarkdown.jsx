@@ -7,7 +7,7 @@ function PreviewMarkdown({ markdowns, onUpdateMarkdown }) {
   
   // const navigate = useNavigate();
   const { markdownid } = useParams();
-  // console.log(markdownid);
+  console.log(markdownid);
   
   const markdown = markdowns.find(({ id }) => (id === markdownid));
 
@@ -21,7 +21,7 @@ function PreviewMarkdown({ markdowns, onUpdateMarkdown }) {
     }
   }, [markdown]);
 
-  // console.log(markdown);
+  console.log(markdown);
 
   var converter = new showdown.Converter();
   // convertie "markdown" en html grace a "converter"
@@ -35,9 +35,9 @@ function PreviewMarkdown({ markdowns, onUpdateMarkdown }) {
 
   function downloadMarkdown() {
     // ----- Source: IA -----
-    // Blob = Binary Large Object = objet qui contient des données de type fichier brut
+    // Blob = Binary Large Object = objet qui contient des données de type fichier en brut
     const blob = new Blob([markdown.content], { type: 'text/markdown' });
-    // Création d'une URL temporaire pour le Blob
+    // création d'une URL temporaire pour le Blob
     // pour qu'il soit accesible comme s'il s'agissait d'un fichier accessible depuis une adresse sur internet
     const url = URL.createObjectURL(blob);
     
@@ -45,36 +45,40 @@ function PreviewMarkdown({ markdowns, onUpdateMarkdown }) {
     const a = document.createElement('a');
     // ont remplie le href du <a> avec l'url généré
     a.href = url;
-    // spécifier le nom du fichier
-    a.download = `${markdown.titre}.md`;
+    
+    
+    // add le nom du fichier
+    a.download = `${markdown.title}.md`;
     // simule un clic de l'utilisateur
     a.click();
 
-    // Libération de l'URL temporaire
+    // supp l'URL temporaire
     URL.revokeObjectURL(url);
     // ----------
   }
   
   return (
-    <div className="container" style={{ display: 'flex' }}>
-      <div>
+    <div className="preview-container">
+      <div className='markdown-box'>
+        <h2 className='markdown-h2'>Modifier markdown</h2>
         <form onSubmit={updateMarkdown}>
           <input type="text" placeholder='titre' value={title} onChange={(e) => setTitle(e.target.value)}/>
-        <textarea value={content} 
-            onChange={(e) => setContent(e.target.value)}
-          />
+          <textarea spellCheck="false" value={content} onChange={(e) => setContent(e.target.value)}/>
           <button type='submit'>Mettre a jour</button>
         </form>
       </div>
-      <div>
-        <h2>Détails</h2>
-          <button onClick={downloadMarkdown}>Télécharger</button>
-        <ul>
-          {/* Source: IA  (affiche le contenu HTML */}
-          <li dangerouslySetInnerHTML={{ __html: html }}></li>
-          <li>{markdown.content}</li>
-        </ul>
+      <div className='markdown-box'>
+        <div className='top-preview'>
+          <h2 className='markdown-h2'>Prévisualisation</h2>
+        </div>
+
+        {/* Source: IA  (affiche le contenu HTML */}
+        <div className='preview' dangerouslySetInnerHTML={{ __html: html }}></div>
+        <button onClick={downloadMarkdown}>Télécharger</button>
+
       </div>
+
+      
     </div>
   );
 }

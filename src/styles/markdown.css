@@ -1,0 +1,146 @@
+:root {
+    --padding: 10px;
+    --primary-color: #043498;
+    --secondary-color: #6799C9;
+}
+
+nav {
+    /* height: 8vh; */
+    background: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.markdown-container {
+    display: flex;
+    flex-direction: column;
+    height: 92vh;
+    gap: 15px;
+    /* background: brown; */
+    padding-bottom: 20px;
+}
+
+.markdown-container h1 {
+    text-align: center;
+    padding: var(--padding);
+    background: var(--secondary-color);
+    color: white;
+
+}
+
+.markdown-container .preview-container > div > h2, .top-preview > h2 {
+    text-align: center;
+}
+
+.markdown-container input {
+    padding: 8px;
+}
+
+.markdown-container button {
+    padding: 8px;
+}
+
+.markdown-container > div {
+    display: flex;
+    /* background: pink; */
+    height: 85vh;
+    padding: 20px;
+    gap: 20px;
+}
+
+.list {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.markdown-box {
+    border: 1px solid black;
+}
+
+.markdown-h2 {
+    background: var(--secondary-color);
+    text-align: center;
+    color: white;
+}
+
+.list > div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 10px;
+    flex: 1;
+}
+
+.list ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.list ul a {
+    color: black;
+    /* text-decoration: none; */
+}
+
+.list label {
+    padding: 10px;
+    border: 1px solid;
+    width: fit-content;
+}
+
+.list input {
+    display: none;
+}
+
+.preview-container {
+    display: flex;
+    gap: 20px;
+    /* padding-bottom: 20px; */
+    flex: 1;
+    /* background: red; */
+}
+
+.preview-container > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.preview-container form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;
+}
+
+.preview-container form textarea {
+    resize: none;
+    flex: 1;
+    padding: var(--padding);
+}
+
+.preview-container > div {
+    width: 42.5%;
+    /* background: blue; */
+}
+
+.preview {
+    overflow: auto;
+    flex: 1;
+    /* background: purple; */
+    padding: var(--padding);
+}

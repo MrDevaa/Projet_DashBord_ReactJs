@@ -53,7 +53,7 @@ const getDayOfWeek = () => {
           <p>Chargement du mocktail en cours...</p>
         )}
 
-      </div>
+    </div>
   );
 };
 

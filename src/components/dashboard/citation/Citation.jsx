@@ -10,13 +10,13 @@ function Citation() {
   function fetchCitation() {
     fetch('https://api.adviceslip.com/advice')
       .then((res) => res.json())
-      .then((data) => setCitation(data.slip))
+      .then((data) => setCitation(data.slip)) // stocke l'objet complet "slip" dans l'état
       .catch((error) => console.log(error));
   }
 
   useEffect(() => {
-    fetchCitation();
-  }, []); 
+    fetchCitation(); // Appelle l'API une seule fois lors du chargement de la page
+  }, []); // [] signifie que l'effet s'exécute uniquement une fois après le premier rendu
 
   return (
     <div className='useless' >

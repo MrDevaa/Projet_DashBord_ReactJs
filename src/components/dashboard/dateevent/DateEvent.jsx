@@ -1,5 +1,6 @@
  import React, { useEffect, useState } from 'react';
  import event from '../../../images/event.png'
+ 
  function HistoricalDate() {
     const [dateInfo, setDateInfo] = useState([]);
     const [randomEvents, setRandomEvents] = useState([]);

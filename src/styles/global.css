@@ -5,7 +5,6 @@
 }
 
 nav {
-    /* height: 8vh; */
     background: var(--primary-color);
     display: flex;
     justify-content: space-between;
@@ -13,6 +12,12 @@ nav {
 
 nav img {
     width: 100%;
+}
+
+nav .active{
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 2px;
 }
 
 nav > a{

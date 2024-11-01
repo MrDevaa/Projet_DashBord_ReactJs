@@ -1,23 +1,25 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../images/logo.png';
 
-function Nav() {
+function nav() {
   return (
     <nav>
+        <div>
           <Link to="/">
             <img src={logo} alt="logo"  /> 
           </Link>
+        </div>
         <ul>
         <li>
-            <Link to="/">Dashboard </Link>
+          <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>Dashboard</NavLink>
         </li>
         <li>
-            <Link to="/markdown">Markdown </Link>
+          <NavLink to="/markdown" className={({ isActive }) => (isActive ? 'active' : '')}>Markdown</NavLink>
         </li>
         </ul>
     </nav>
   )
 }
 
-export default Nav
+export default nav

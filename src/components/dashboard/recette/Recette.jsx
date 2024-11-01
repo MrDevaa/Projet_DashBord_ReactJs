@@ -5,6 +5,7 @@ const RecetteDuJour = () => {
   const [recette, setRecette] = useState(null);
   const [open, setOpen] = useState(false);
 
+  // Fonction pour récupérer la recette du jour depuis l'API
   useEffect(() => {
     const fetchRecette = async () => {
       try {
@@ -25,6 +26,7 @@ const RecetteDuJour = () => {
     fetchRecette();
   }, []);
 
+  // Fonction pour ouvrir/fermer la boîte de dialogue
   const handleClickOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
