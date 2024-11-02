@@ -1,31 +1,31 @@
-# Projet React - Éditeur Markdown
+# 📝 Projet React - Éditeur Markdown
 
-## Description
+## 📖 Description
 Ce projet est un éditeur Markdown en React qui propose une interface "old school" pour le tableau de bord, incluant plusieurs éléments fun comme une blague du jour, une citation, et des événements historiques du jour. Il comprend deux pages principales : un tableau de bord et une page d'édition pour les fichiers Markdown sélectionnés.
 
 
-## Fonctionnalités
+## ✨ Fonctionnalités
 - Tableau de bord avec citations, blagues, et événements historiques.
 - Éditeur de fichiers Markdown avec options d'import/export.
 
 ## Page Tableau de Bord
 
-| Fonctionnalités |   Disponibilité     |Commentaire       |
+| 🛠️ Fonctionnalités |   📌 Disponibilité     | 💬 Commentaire       |
 |:--------------- |:-------------------:|:-----------------:|
-| - Affichage de la date et l'heure | ✅|                  |
-| - Citation  du jour               | ✅| ( Via une API )      |
-| - Blague  du jour  |    ✅   | ( Via une API )   |
-| - Événements historiques du jour   |    ✅   | ( Via une API )     |
-| - Mocktail  du jour  |    ✅   | ( Via une API )    |
-| - Recette  du jour  |    ✅   | ( Via une API )    |
-| - Liste des fichiers Markdown  |    ✅   | créés par l’utilisateur avec possibilité de création    |
+| - 🗓️ Affichage de la date et l'heure | ✅|                  |
+| - 💡 Citation  du jour               | ✅| ( Via une API )      |
+| - 😆 Blague  du jour  |    ✅   | ( Via une API )   |
+| - 📜 Événements historiques du jour   |    ✅   | ( Via une API )     |
+| - 🍹 Mocktail  du jour  |    ✅   | ( Via une API )    |
+| - 🍽️ Recette  du jour  |    ✅   | ( Via une API )    |
+| - 📝Liste des fichiers Markdown  |    ✅   | créés par l’utilisateur avec possibilité de création    |
 
 ## Page d'Édition de Fichier Markdown
-| Fonctionnalités |   Disponibilité     |Commentaire       |
+| 🛠️ Fonctionnalités |   📌 Disponibilité     | 💬 Commentaire       |
 |:--------------- |:-------------------:|:-----------------:|
-| - Édition et prévisualisation en HTML du fichier Markdown | ✅| |
-| - Exportation du fichier en .md  | ✅|       |
-| - Importation de fichier .md  |    ✅ | existant pour édition   |
+| - ✏️ Édition et prévisualisation en HTML du fichier Markdown | ✅| |
+| - 📤 Exportation du fichier en .md  | ✅|       |
+| - 📥 Importation de fichier .md  |    ✅ | existant pour édition   |
 
 ## Fonctionalités Bonus
 | Fonctionnalités |   Disponibilité     |Commentaire       |
