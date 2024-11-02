@@ -1,7 +1,8 @@
 # Projet React - Éditeur Markdown
 
 ## Description
-Ce projet est un éditeur Markdown en React qui propose un tableau de bord old-school et une interface d'édition de fichier Markdown.
+Ce projet est un éditeur Markdown en React qui propose une interface "old school" pour le tableau de bord, incluant plusieurs éléments fun comme une blague du jour, une citation, et des événements historiques du jour. Il comprend deux pages principales : un tableau de bord et une page d'édition pour les fichiers Markdown sélectionnés.
+
 
 ## Fonctionnalités
 - Tableau de bord avec citations, blagues, et événements historiques.
@@ -10,9 +11,9 @@ Ce projet est un éditeur Markdown en React qui propose un tableau de bord old-s
 
 | Fonctionnalités |   Disponibilité     |Commentaire       |
 |:--------------- |:-------------------:|-----------------:|
-| -   | Développeur Frontend |    |
-| Bob Martin     | Développeur Backend  | bob@example.com       |
-| Clara Martin   | Designer UI/UX       | clara@example.com     |
+| - Affichage de la date et l'heure | ✅|                  |
+| - Citation  du jour               | ✅| bob@example.com       |
+| - Blague  du jour  |    ✅   | clara@example.com     |
 
 
 ## Installation
