@@ -8,12 +8,17 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 - Tableau de bord avec citations, blagues, et événements historiques.
 - Éditeur de fichiers Markdown avec options d'import/export.
 
+## Fonctionnalités du DashBoard
 
 | Fonctionnalités |   Disponibilité     |Commentaire       |
 |:--------------- |:-------------------:|-----------------:|
 | - Affichage de la date et l'heure | ✅|                  |
-| - Citation  du jour               | ✅| bob@example.com       |
-| - Blague  du jour  |    ✅   | clara@example.com     |
+| - Citation  du jour               | ✅| ( Via une API )      |
+| - Blague  du jour  |    ✅   | ( Via une API )   |
+| - Événements historiques du jour   |    ✅   | ( Via une API )     |
+| - Mocktail  du jour  |    ✅   | ( Via une API )    |
+| - Recette  du jour  |    ✅   | ( Via une API )    |
+| - Liste des fichiers Markdown  |    ✅   | créés par l’utilisateur avec possibilité de création    |
 
 
 ## Installation
