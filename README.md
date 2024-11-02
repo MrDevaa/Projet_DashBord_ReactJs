@@ -37,9 +37,7 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 ## Installation
 1. Cloner le dépôt : `git clone https://github.com/utilisateur/projet-react-markdown.git`
 2. Installer les dépendances : `npm install`
-3. Lancer le projet : `npm start`
-
-
+3. Lancer le projet : `npm run dev`
 
 ## Technologies
 - React
