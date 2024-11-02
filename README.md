@@ -1,8 +1,24 @@
-# React + Vite
+# Projet React - Éditeur Markdown
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+Ce projet est un éditeur Markdown en React qui propose un tableau de bord old-school et une interface d'édition de fichier Markdown.
 
-Currently, two official plugins are available:
+## Fonctionnalités
+- Tableau de bord avec citations, blagues, et événements historiques.
+- Éditeur de fichiers Markdown avec options d'import/export.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+1. Cloner le dépôt : `git clone https://github.com/utilisateur/projet-react-markdown.git`
+2. Installer les dépendances : `npm install`
+3. Lancer le projet : `npm start`
+
+## Membres du Groupe
+- Codandabany Devanandhan  - Développeur front / Lead
+- Codandabany Devanandhan - Rôle
+- ...
+
+## Technologies
+- React
+- React Router
+- Showdown ou Marked pour la conversion Markdown
+
