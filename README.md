@@ -8,7 +8,7 @@ Ce projet est un éditeur Markdown en React qui propose un tableau de bord old-s
 - Éditeur de fichiers Markdown avec options d'import/export.
 
 
-| Fonctionnalités|   Disponibilité      | commentaire           |
+| Fonctionnalités|   Disponibilité      |     commentaire       |
 |:---------------|:-------------------:|----------------------: |
 | -   | Développeur Frontend |    |
 | Bob Martin     | Développeur Backend  | bob@example.com       |
