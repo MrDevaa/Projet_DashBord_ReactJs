@@ -33,13 +33,23 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 2. Installer les dépendances : `npm install`
 3. Lancer le projet : `npm start`
 
-## Membres du Groupe
-- Codandabany Devanandhan  - Développeur front / Lead
-- Codandabany Devanandhan - Rôle
-- ...
+
 
 ## Technologies
 - React
 - React Router
 - Showdown ou Marked pour la conversion Markdown
+## Ressources et APIs
 
+* **Citations :** [API Advice](https://api.adviceslip.com/advice) - Fournit des citations aléatoires en anglais.
+* **Blagues :** [Official Joke API](https://official-joke-api.appspot.com/random_joke) - Fournit des blagues aléatoires en anglais.
+* **Événements historiques :** [Muffin Labs History API](http://history.muffinlabs.com/date) - Affiche des événements historiques ayant eu lieu un jour donné.
+* **Mocktails :** [The Cocktail DB (Non-Alcoholic)](https://www.thecocktaildb.com/api/json/v1/1/filter.php?a=Non_Alcoholic) - Fournit une liste de cocktails sans alcool.
+* **Recettes :** [The Meal DB](https://www.themealdb.com/api/json/v1/1/random.php) - Fournit une recette aléatoire en anglais.
+
+
+## Membres du Groupe
+- Codandabany Devanandhan  - Développeur front 
+- Codandabany Devanandhan  - Développeur front 
+- Codandabany Devanandhan  - Développeur front 
+- Codandabany Devanandhan  - Développeur front 
