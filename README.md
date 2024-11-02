@@ -11,7 +11,7 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 ## Fonctionnalités du DashBoard
 
 | Fonctionnalités |   Disponibilité     |Commentaire       |
-|:--------------- |:-------------------:|-----------------:|
+|:--------------- |:-------------------:|:-----------------:|
 | - Affichage de la date et l'heure | ✅|                  |
 | - Citation  du jour               | ✅| ( Via une API )      |
 | - Blague  du jour  |    ✅   | ( Via une API )   |
