@@ -7,6 +7,14 @@ Ce projet est un éditeur Markdown en React qui propose un tableau de bord old-s
 - Tableau de bord avec citations, blagues, et événements historiques.
 - Éditeur de fichiers Markdown avec options d'import/export.
 
+
+| Fonctionnalités|   Disponibilité      | commentaire           |
+|:---------------|:-------------------:|----------------------: |
+| -   | Développeur Frontend | alice@example.com     |
+| Bob Martin     | Développeur Backend  | bob@example.com       |
+| Clara Martin   | Designer UI/UX       | clara@example.com     |
+
+
 ## Installation
 1. Cloner le dépôt : `git clone https://github.com/utilisateur/projet-react-markdown.git`
 2. Installer les dépendances : `npm install`
