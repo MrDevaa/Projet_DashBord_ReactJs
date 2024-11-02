@@ -23,10 +23,16 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 ## Page d'Édition de Fichier Markdown
 | Fonctionnalités |   Disponibilité     |Commentaire       |
 |:--------------- |:-------------------:|:-----------------:|
-| - Édition et prévisualisation en HTML du fichier Markdown | ✅|                  |
+| - Édition et prévisualisation en HTML du fichier Markdown | ✅| |
 | - Exportation du fichier en .md  | ✅|       |
 | - Importation de fichier .md  |    ✅ | existant pour édition   |
 
+## Fonctionalités Bonus
+| Fonctionnalités |   Disponibilité     |Commentaire       |
+|:--------------- |:-------------------:|:-----------------:|
+| - Ajout des émojis de année 2000 | ✅| |
+| - Full Responsive | ✅| |
+| - Ajout d'un button Supprimer | ✅| - Button supprimer pour un fichier ReadMe.Md |
 
 ## Installation
 1. Cloner le dépôt : `git clone https://github.com/utilisateur/projet-react-markdown.git`
@@ -38,7 +44,7 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 ## Technologies
 - React
 - React Router
-- Showdown ou Marked pour la conversion Markdown
+- Bibliothèque de conversion Markdown (Showdown ou Marked)
 ## Ressources et APIs
 
 * **Citations :** [API Advice](https://api.adviceslip.com/advice) - Fournit des citations aléatoires en anglais.
