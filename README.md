@@ -27,12 +27,12 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 | - 📤 Exportation du fichier en .md  | ✅|       |
 | - 📥 Importation de fichier .md  |    ✅ | existant pour édition   |
 
-## Fonctionalités Bonus
-| Fonctionnalités |   Disponibilité     |Commentaire       |
+## 🌟 Fonctionalités Bonus
+| 🛠️ Fonctionnalités |   📌 Disponibilité     | 💬 Commentaire       |
 |:--------------- |:-------------------:|:-----------------:|
-| - Ajout des émojis de année 2000 | ✅| |
-| - Full Responsive | ✅| |
-| - Ajout d'un button Supprimer | | Button supprimer pour un fichier ReadMe.Md |
+| - 🎉 Ajout des émojis de année 2000 | ✅| |
+| - 📱 Full Responsive | ✅| |
+| - 🗑️ Ajout d'un button Supprimer | ❌ | Button supprimer pour un fichier ReadMe.Md |
 
 ## Installation
 1. Cloner le dépôt : `git clone https://github.com/utilisateur/projet-react-markdown.git`
