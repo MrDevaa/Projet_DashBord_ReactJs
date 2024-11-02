@@ -8,7 +8,7 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 - Tableau de bord avec citations, blagues, et événements historiques.
 - Éditeur de fichiers Markdown avec options d'import/export.
 
-## Fonctionnalités du DashBoard
+## Page Tableau de Bord
 
 | Fonctionnalités |   Disponibilité     |Commentaire       |
 |:--------------- |:-------------------:|:-----------------:|
@@ -19,6 +19,13 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 | - Mocktail  du jour  |    ✅   | ( Via une API )    |
 | - Recette  du jour  |    ✅   | ( Via une API )    |
 | - Liste des fichiers Markdown  |    ✅   | créés par l’utilisateur avec possibilité de création    |
+
+## Page d'Édition de Fichier Markdown
+| Fonctionnalités |   Disponibilité     |Commentaire       |
+|:--------------- |:-------------------:|:-----------------:|
+| - Édition et prévisualisation en HTML du fichier Markdown | ✅|                  |
+| - Exportation du fichier en .md  | ✅|       |
+| - Importation de fichier .md  |    ✅ | existant pour édition   |
 
 
 ## Installation
