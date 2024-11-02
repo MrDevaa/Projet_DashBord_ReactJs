@@ -30,7 +30,7 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 ## 🌟 Fonctionalités Bonus
 | 🛠️ Fonctionnalités |   📌 Disponibilité     | 💬 Commentaire       |
 |:--------------- |:-------------------:|:-----------------:|
-| - 🎉 Ajout des émojis de année 2000 | ✅| |
+| - 🎉 Ajout des émojis des année 2000 | ✅| |
 | - 📱 Full Responsive | ✅| |
 | - 🗑️ Ajout d'un button Supprimer | ❌ | Button supprimer pour un fichier ReadMe.Md |
 
@@ -42,7 +42,7 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 ## Technologies
 - React
 - React Router
-- Bibliothèque de conversion Markdown (Showdown ou Marked)
+- Bibliothèque de conversion Markdown (Showdown)
 ## Ressources et APIs
 
 * **Citations :** [API Advice](https://api.adviceslip.com/advice) - Fournit des citations aléatoires en anglais.
@@ -54,6 +54,6 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 
 ## Membres du Groupe
 - Codandabany Devanandhan  - Développeur front 
-- Codandabany Devanandhan  - Développeur front 
-- Codandabany Devanandhan  - Développeur front 
-- Codandabany Devanandhan  - Développeur front 
+- DESCARPENTRIES Stéphane  - Développeur front 
+- DE PASQUAL Eddy Jean Christopher  - Développeur front 
+- DA ROCHA Hugo  - Développeur front 
