@@ -10,7 +10,7 @@ Ce projet est un éditeur Markdown en React qui propose un tableau de bord old-s
 
 | Fonctionnalités|   Disponibilité      | commentaire           |
 |:---------------|:-------------------:|----------------------: |
-| -   | Développeur Frontend | alice@example.com     |
+| -   | Développeur Frontend |    |
 | Bob Martin     | Développeur Backend  | bob@example.com       |
 | Clara Martin   | Designer UI/UX       | clara@example.com     |
 
