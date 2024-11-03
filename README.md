@@ -7,7 +7,6 @@ Site Web : https://my-dashboard-markdown.netlify.app
 ## 📖 Description
 Ce projet est un éditeur Markdown en React qui propose une interface "old school" pour le tableau de bord, incluant plusieurs éléments fun comme une blague du jour, une citation, et des événements historiques du jour. Il comprend deux pages principales : un tableau de bord et une page d'édition pour les fichiers Markdown sélectionnés.
 
-
 ## ✨ Fonctionnalités
 - Tableau de bord avec citations, blagues, et événements historiques.
 - Éditeur de fichiers Markdown avec options d'import/export.
@@ -47,10 +46,6 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 3. Lancer le projet : `npm run dev`
 
 ## Technologies
-
-- React
-- React Router
-- Bibliothèque de conversion Markdown (Showdown)
 
 - ![React](https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 - ![React Router](https://img.shields.io/badge/REACT_ROUTER-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
