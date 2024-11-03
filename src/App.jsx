@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-import DashboardContainer from './components/Dashboard/DashboardContainer';
+import DashboardContainer from './components/dashboard/DashboardContainer';
 import MarkdownContainer from './components/markdown/MarkdownContainer'
 import Nav from './components/nav'
 import "./styles/reset.css";
@@ -68,7 +68,6 @@ function App() {
     <div>
       <BrowserRouter>
         <Nav />
-
         <Routes>
           <Route path="/markdown" element={<MarkdownContainer markdowns={markdowns} onUpdateMarkdown={onUpdateMarkdown} ajouterMarkdownViaInput={ajouterMarkdownViaInput} supprimerMarkdown={supprimerMarkdown}/> } />
           <Route path="/markdown/:markdownid" element={<MarkdownContainer markdowns={markdowns} onUpdateMarkdown={onUpdateMarkdown} ajouterMarkdownViaInput={ajouterMarkdownViaInput} supprimerMarkdown={supprimerMarkdown}/>} />
