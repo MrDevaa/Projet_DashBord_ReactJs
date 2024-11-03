@@ -1,7 +1,6 @@
 # 📝 Projet React - Éditeur Markdown
 
-## Preview de Dashboard
-![dashboard.png](src/images/dashboard.png)
+![dashboard.png](src\images/dashboard.png)
 
 
 ## 📖 Description
@@ -37,20 +36,19 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 | - 🎉 Ajout des émojis des année 2000 | ✅| |
 | - 📱 Full Responsive | ✅| |
 | - 🗑️ Ajout d'un button Supprimer | ✅ | Button supprimer pour un fichier ReadMe.Md |
+| - 🖼️ Ajout des images dans Mocktail et Recettes | ✅ | |
+| - 📌 Ajout de la ClassActive dans la Nav | ✅ | |
 
 ## Installation
-
-1. Cloner le dépôt :
-    `git clone https://github.com/utilisateur/projet-react-markdown.git`
-2. Installer les dépendances :
-    `npm install`
-3. Lancez l'application :
-   ` npm run dev`
+1. Cloner le dépôt : `git clone https://github.com/utilisateur/projet-react-markdown.git`
+2. Installer les dépendances : `npm install`
+3. Lancer le projet : `npm run dev`
 
 ## Technologies
 - React
 - React Router
 - Bibliothèque de conversion Markdown (Showdown)
+
 ## Ressources et APIs
 
 * **Citations :** [API Advice](https://api.adviceslip.com/advice) - Fournit des citations aléatoires en anglais.
@@ -65,3 +63,11 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 - [DESCARPENTRIES Stéphane](https://github.com/Woodiss)  - Développeur front  
 - [DE PASQUAL Eddy Jean Christopher](https://github.com/christopherDEPASQUAL)  - Développeur front 
 - [DA ROCHA Hugo](https://github.com/Hugodrc55)  - Développeur front 
+
+## 💬 Remerciements
+
+Un grand merci à Damien pour ce projet stimulant et enrichissant ! Ce projet nous a permis de développer nos compétences en React tout en explorant des fonctionnalités uniques, comme le tableau de bord "old school" et l'éditeur Markdown. Merci pour l'inspiration et les conseils tout au long de ce parcours ! 🙏
+
+## 📜 Licence
+
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](./LICENSE) pour plus de détails.
