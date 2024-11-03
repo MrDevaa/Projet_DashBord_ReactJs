@@ -5,7 +5,7 @@ import Blague from './dos-blague/Blague.jsx';
 import RecetteDuJour from './dos-recette/Recette.jsx';
 import Mocktail  from'./dos-mocktail/Mocktail.jsx';
 import HistoricalDate from './dos-dateevent/DateEvent.jsx';
-import ListeMarkdowns from '../MarkDown/dos-listemarkdowns/ListeMarkDowns.jsx';
+import ListeMarkdowns from '../MarkDown/dos-listemarkdowns/ListeMarkdowns.jsx';
 import FormMarkdown from '../MarkDown/dos-formmarkdown/FormMarkDown.jsx';
 import "../../styles/dashboard.css";
 
