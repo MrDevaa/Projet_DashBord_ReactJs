@@ -1,6 +1,6 @@
 import React from 'react'
 import Citation from './citation/Citation.jsx';
-import HeureDate from './heureDate/HeureDate.jsx';
+import HeureDate from './heuredate/HeureDate.jsx';
 import Blague from './blague/Blague.jsx';
 import RecetteDuJour from './recette/Recette.jsx';
 import Mocktail  from'./mocktail/Mocktail.jsx';
