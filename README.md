@@ -47,11 +47,11 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 3. Lancer le projet : `npm run dev`
 
 ## Technologies
-<<<<<<< HEAD
+
 - React
 - React Router
 - Bibliothèque de conversion Markdown (Showdown)
-=======
+
 - ![React](https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 - ![React Router](https://img.shields.io/badge/REACT_ROUTER-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 - ![Markdown Showdown](https://img.shields.io/badge/MARKDOWN_Showdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
