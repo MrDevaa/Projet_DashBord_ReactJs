@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import DashboardContainer from './components/dashboard/DashboardContainer';
-import MarkdownContainer from "../src/components/markdown/MarkdownContainer";
+import MarkdownContainer from "./components/markdown/MarkdownContainer";
 import Nav from './components/nav';
 import "./styles/reset.css";
 import './styles/global.css';
