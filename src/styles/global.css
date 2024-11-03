@@ -5,6 +5,7 @@
 }
 
 nav {
+    /* height: 8vh; */
     background: var(--primary-color);
     display: flex;
     justify-content: space-between;
@@ -37,5 +38,3 @@ nav ul a {
     font-size: 1.5rem;
     text-decoration: none;
 }
-
-

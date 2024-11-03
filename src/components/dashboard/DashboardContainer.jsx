@@ -9,14 +9,15 @@ import ListeMarkdowns from '../MarkDown/ListeMarkdowns/ListeMarkDowns';
 import FormMarkdown from '../MarkDown/FormMarkdown/FormMarkDown';
 import "../../styles/dashboard.css";
 
-function DashboardContainer({ markdowns, ajouterMarkdownViaInput, ajouterMarkdown }) {
+function DashboardContainer({ markdowns, ajouterMarkdownViaInput, ajouterMarkdown, supprimerMarkdown }) {
+    
   return (
     <div className='dashboard-container'>
         <div className='top-dashbord'>
             <div className='left-dashbord'>
                 <HeureDate />
                 <div className='markdown-tool'>
-                    <ListeMarkdowns markdowns={markdowns} ajouterMarkdownViaInput={ajouterMarkdownViaInput}/>
+                    <ListeMarkdowns markdowns={markdowns} ajouterMarkdownViaInput={ajouterMarkdownViaInput} supprimerMarkdown={supprimerMarkdown}/>
                     <FormMarkdown ajouterMarkdown={ajouterMarkdown}/>
                 </div>
             </div>

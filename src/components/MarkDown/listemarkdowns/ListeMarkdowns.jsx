@@ -1,7 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import cross from '../../../images/cross.svg';
 
-function ListeMarkdowns({ markdowns, ajouterMarkdownViaInput }) {
+function ListeMarkdowns({ markdowns, ajouterMarkdownViaInput, supprimerMarkdown }) {
+
+  function handleDelete(markdownId) {
+    return () => supprimerMarkdown(markdownId);
+  }
 
   return (
     <div className='list markdown-box'>
@@ -15,6 +20,7 @@ function ListeMarkdowns({ markdowns, ajouterMarkdownViaInput }) {
               <Link to={`/markdown/${markdown.id}`}>
                 {markdown.title}
               </Link>
+              <img onClick={handleDelete(markdown.id)} src={cross} alt="delete" />
             </li>
           ))}
         </ul>

@@ -46,7 +46,7 @@ const getDayOfWeek = () => {
 
         ) : mocktail ? (
           <div className="mocktail-img" >
-            <h2>{mocktail.strDrink}</h2>
+            <p>{mocktail.strDrink}</p>
             <img src={mocktail.strDrinkThumb} alt={mocktail.strDrink} />
           </div>
         ) : (

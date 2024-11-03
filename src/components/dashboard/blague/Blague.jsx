@@ -19,15 +19,16 @@ function Blague() {
     <div className='useless'>
       <div className='emoji'>
         <img src={rire} alt="blague" />
-      <h4>Voici une blague</h4>
-      <img src={rire} alt="blague" />
-       </div>
+        <h4>Voici une blague</h4>
+        <img src={rire} alt="blague" />
+      </div>
       <div>
         <p>{blague.setup}</p>
         <p>Chute :</p>
         <div className='chute'>
           <img src={rigole} alt="rigole" />
           <p>{blague.punchline}</p>
+          <img src={rigole} alt="rigole" />
         </div>
       </div>
     </div>
