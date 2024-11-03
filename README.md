@@ -40,6 +40,7 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 | - 🗑️ Ajout d'un button Supprimer | ✅ | Button supprimer pour un fichier ReadMe.Md |
 | - 🖼️ Ajout des images dans Mocktail et Recettes | ✅ | |
 | - 📌 Ajout de la ClassActive dans la Nav | ✅ | |
+| - 🚀 déploiment du projet| ✅ | (Via Netlify 🌐)|
 
 ## Installation
 1. Cloner le dépôt : `git clone https://github.com/utilisateur/projet-react-markdown.git`
