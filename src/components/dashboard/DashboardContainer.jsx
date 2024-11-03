@@ -1,12 +1,12 @@
 import React from 'react'
-import Citation from './citation/Citation';
-import HeureDate from './heureDate/HeureDate';
-import Blague from './blague/Blague';
-import RecetteDuJour from './recette/Recette';
-import Mocktail  from'./mocktail/Mocktail';
-import HistoricalDate from './dateevent/DateEvent';
-import ListeMarkdowns from '../MarkDown/ListeMarkdowns/ListeMarkDowns';
-import FormMarkdown from '../MarkDown/FormMarkdown/FormMarkDown';
+import Citation from './citation/Citation.jsx';
+import HeureDate from './heureDate/HeureDate.jsx';
+import Blague from './blague/Blague.jsx';
+import RecetteDuJour from './recette/Recette.jsx';
+import Mocktail  from'./mocktail/Mocktail.jsx';
+import HistoricalDate from './dateevent/DateEvent.jsx';
+import ListeMarkdowns from '../MarkDown/ListeMarkdowns/ListeMarkDowns.jsx';
+import FormMarkdown from '../MarkDown/FormMarkdown/FormMarkDown.jsx';
 import "../../styles/dashboard.css";
 
 function DashboardContainer({ markdowns, ajouterMarkdownViaInput, ajouterMarkdown, supprimerMarkdown }) {
