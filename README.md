@@ -46,7 +46,7 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 
 ## Technologies
 - ![React](https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-- React Router
+- ![React Router](https://img.shields.io/badge/REACT_ROUTER-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 - Bibliothèque de conversion Markdown (Showdown)
 
 ## Ressources et APIs
