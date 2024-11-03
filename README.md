@@ -4,7 +4,6 @@ Site Web : https://my-dashboard-markdown.netlify.app
 
 ![dashboard.png](src/images/dashboard.png)
 
-
 ## 📖 Description
 Ce projet est un éditeur Markdown en React qui propose une interface "old school" pour le tableau de bord, incluant plusieurs éléments fun comme une blague du jour, une citation, et des événements historiques du jour. Il comprend deux pages principales : un tableau de bord et une page d'édition pour les fichiers Markdown sélectionnés.
 
@@ -58,8 +57,6 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 - ![Markdown Showdown](https://img.shields.io/badge/MARKDOWN_Showdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 - ![API](https://img.shields.io/badge/API-005571?style=for-the-badge&logo=api&logoColor=white)
 
->>>>>>> 4bafc017ab5188f017c0801bf0f3371e64e7a877
-
 ## Ressources et APIs
 
 * **Citations :** [API Advice](https://api.adviceslip.com/advice) - Fournit des citations aléatoires en anglais.
@@ -82,8 +79,7 @@ Un grand merci à Damien pour ce projet stimulant et enrichissant ! Ce projet no
 ## 📜 Licence
 
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](./LICENSE) pour plus de détails.
-<<<<<<< HEAD
-=======
+
 
 © 2024 Groupe 3 - Projet React Hetic - Web2 . All rights reserved.
->>>>>>> 4bafc017ab5188f017c0801bf0f3371e64e7a877
+
