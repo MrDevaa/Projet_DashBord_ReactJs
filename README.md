@@ -73,3 +73,5 @@ Un grand merci à Damien pour ce projet stimulant et enrichissant ! Ce projet no
 ## 📜 Licence
 
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](./LICENSE) pour plus de détails.
+© 2024 Groupe 3 - Projet React Hetic - Web2 . All rights reserved.
+
