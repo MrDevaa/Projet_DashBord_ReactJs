@@ -1,6 +1,6 @@
 # 📝 Projet React - Éditeur Markdown
 
-![My Image](src\images/dashboard.png)
+![dashboard.png](src\images/dashboard.png)
 
 
 ## 📖 Description
