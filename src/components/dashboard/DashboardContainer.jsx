@@ -1,10 +1,10 @@
 import React from 'react'
-import Citation from './Citation/Citation';
-import HeureDate from './HeureDate/HeureDate';
-import Blague from './Blague/Blague';
-import RecetteDuJour from './Recette/Recette';
-import Mocktail  from'./Mocktail/Mocktail';
-import HistoricalDate from './DateEvent/dateEvent';
+import Citation from './citation/Citation';
+import HeureDate from './heureDate/HeureDate';
+import Blague from './blague/Blague';
+import RecetteDuJour from './recette/Recette';
+import Mocktail  from'./mocktail/Mocktail';
+import HistoricalDate from './dateevent/DateEvent';
 import ListeMarkdowns from '../MarkDown/ListeMarkdowns/ListeMarkDowns';
 import FormMarkdown from '../MarkDown/FormMarkdown/FormMarkDown';
 import "../../styles/dashboard.css";
