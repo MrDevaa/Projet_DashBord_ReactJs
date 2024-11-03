@@ -53,7 +53,7 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 
 
 ## Membres du Groupe
-- Codandabany Devanandhan  - Développeur front 
-- DESCARPENTRIES Stéphane  - Développeur front 
+- [Codandabany Devanandhan](https://github.com/MrDevaa)  - Développeur front
+- DESCARPENTRIES Stéphane  - Développeur front  
 - DE PASQUAL Eddy Jean Christopher  - Développeur front 
 - DA ROCHA Hugo  - Développeur front 
