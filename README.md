@@ -39,9 +39,16 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 | - 🗑️ Ajout d'un button Supprimer | ✅ | Button supprimer pour un fichier ReadMe.Md |
 
 ## Installation
-1. Cloner le dépôt : `git clone https://github.com/utilisateur/projet-react-markdown.git`
-2. Installer les dépendances : `npm install`
-3. Lancer le projet : `npm run dev`
+
+1. Cloner le dépôt :
+   ```bash
+ `git clone https://github.com/utilisateur/projet-react-markdown.git`
+2. Installer les dépendances :
+   ```bash
+    `npm install`
+33. Lancez l'application :
+     ```bash
+      ` npm run dev`
 
 ## Technologies
 - React
