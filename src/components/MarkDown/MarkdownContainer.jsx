@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter, Link, Route, Routes, useParams } from 'react-router-dom';
-import ListeMarkdowns from './listemarkdowns/ListeMarkdowns.jsx';
-import PreviewMarkdown from './previewmarkdown/PreviewMarkdown.jsx';
+import ListeMarkdowns from './dos-listemarkdowns/ListeMarkDowns.jsx';
+import PreviewMarkdown from './dos-previewmarkdown/PreviewMarkdown.jsx';
 import '../../styles/markdown.css'
 
 function MarkdownContainer({ markdowns, onUpdateMarkdown, ajouterMarkdownViaInput, supprimerMarkdown }) {
