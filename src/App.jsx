@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import DashboardContainer from './components/dashboard/DashboardContainer.jsx';
-// import MarkdownContainer from './components/markdown/MarkdownContainer.jsx';
+import MarkdownContainer from './components/markdown/MarkdownContainer.jsx';
 import Nav from './components/Nav.jsx';
 import "./styles/reset.css";
 import './styles/global.css';
@@ -68,8 +68,8 @@ function App() {
       <BrowserRouter>
         <Nav />
         <Routes>
-          {/* <Route path="/markdown" element={<MarkdownContainer markdowns={markdowns} onUpdateMarkdown={onUpdateMarkdown} ajouterMarkdownViaInput={ajouterMarkdownViaInput} supprimerMarkdown={supprimerMarkdown}/> } /> */}
-          {/* <Route path="/markdown/:markdownid" element={<MarkdownContainer markdowns={markdowns} onUpdateMarkdown={onUpdateMarkdown} ajouterMarkdownViaInput={ajouterMarkdownViaInput} supprimerMarkdown={supprimerMarkdown}/>} /> */}
+          <Route path="/markdown" element={<MarkdownContainer markdowns={markdowns} onUpdateMarkdown={onUpdateMarkdown} ajouterMarkdownViaInput={ajouterMarkdownViaInput} supprimerMarkdown={supprimerMarkdown}/> } /> 
+          <Route path="/markdown/:markdownid" element={<MarkdownContainer markdowns={markdowns} onUpdateMarkdown={onUpdateMarkdown} ajouterMarkdownViaInput={ajouterMarkdownViaInput} supprimerMarkdown={supprimerMarkdown}/>} />
           <Route path="/" element={<DashboardContainer markdowns={markdowns} ajouterMarkdownViaInput={ajouterMarkdownViaInput} ajouterMarkdown={ajouterMarkdown} supprimerMarkdown={supprimerMarkdown}/>}/>
         </Routes>
       </BrowserRouter>

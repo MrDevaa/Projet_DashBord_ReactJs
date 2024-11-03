@@ -5,7 +5,7 @@ import Blague from './blague/Blague.jsx';
 import RecetteDuJour from './recette/Recette.jsx';
 import Mocktail  from'./mocktail/Mocktail.jsx';
 import HistoricalDate from './dateevent/DateEvent.jsx';
-import ListeMarkdowns from '../MarkDown/ListeMarkdowns/ListeMarkDowns.jsx';
+import ListeMarkdowns from '../markdown/listemarkdowns/ListeMarkDowns.jsx';
 import FormMarkdown from '../MarkDown/FormMarkdown/FormMarkDown.jsx';
 import "../../styles/dashboard.css";
 
