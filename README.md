@@ -1,5 +1,8 @@
 # 📝 Projet React - Éditeur Markdown
 
+![My Image](src\images/dashboard.png)
+
+
 ## 📖 Description
 Ce projet est un éditeur Markdown en React qui propose une interface "old school" pour le tableau de bord, incluant plusieurs éléments fun comme une blague du jour, une citation, et des événements historiques du jour. Il comprend deux pages principales : un tableau de bord et une page d'édition pour les fichiers Markdown sélectionnés.
 
@@ -54,6 +57,6 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 
 ## Membres du Groupe
 - [Codandabany Devanandhan](https://github.com/MrDevaa)  - Développeur front
-- DESCARPENTRIES Stéphane  - Développeur front  
-- DE PASQUAL Eddy Jean Christopher  - Développeur front 
-- DA ROCHA Hugo  - Développeur front 
+- [DESCARPENTRIES Stéphane](https://github.com/Woodiss)  - Développeur front  
+- [DE PASQUAL Eddy Jean Christopher](https://github.com/christopherDEPASQUAL)  - Développeur front 
+- [DA ROCHA Hugo](https://github.com/Hugodrc55)  - Développeur front 
