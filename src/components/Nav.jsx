@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../images/logo.png';
 
-function nav() {
+function Nav() {
   return (
     <nav>
         <div>
@@ -22,4 +22,4 @@ function nav() {
   )
 }
 
-export default nav
+export default Nav
