@@ -1,6 +1,6 @@
 # 📝 Projet React - Éditeur Markdown
 
-![dashboard.png](src\images/dashboard.png)
+![dashboard.png](src/images/dashboard.png)
 
 
 ## 📖 Description
@@ -45,9 +45,17 @@ Ce projet est un éditeur Markdown en React qui propose une interface "old schoo
 3. Lancer le projet : `npm run dev`
 
 ## Technologies
+<<<<<<< HEAD
 - React
 - React Router
 - Bibliothèque de conversion Markdown (Showdown)
+=======
+- ![React](https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+- ![React Router](https://img.shields.io/badge/REACT_ROUTER-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+- ![Markdown Showdown](https://img.shields.io/badge/MARKDOWN_Showdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+- ![API](https://img.shields.io/badge/API-005571?style=for-the-badge&logo=api&logoColor=white)
+
+>>>>>>> 4bafc017ab5188f017c0801bf0f3371e64e7a877
 
 ## Ressources et APIs
 
@@ -71,3 +79,8 @@ Un grand merci à Damien pour ce projet stimulant et enrichissant ! Ce projet no
 ## 📜 Licence
 
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](./LICENSE) pour plus de détails.
+<<<<<<< HEAD
+=======
+
+© 2024 Groupe 3 - Projet React Hetic - Web2 . All rights reserved.
+>>>>>>> 4bafc017ab5188f017c0801bf0f3371e64e7a877
