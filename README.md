@@ -1,4 +1,5 @@
 # 📝 Projet React - Éditeur Markdown
+[Download PDF](file.pdf)
 
 Site Web : https://my-dashboard-markdown.netlify.app
 
